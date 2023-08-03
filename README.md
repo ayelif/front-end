@@ -1,3 +1,3 @@
 # kodluyoruz-front-end
 
-*HTML denemesi
+* HTML denemesi
