@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    width: 800px;
+    margin: 40px auto;
+}
+
+.logo-container {
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 300px;
+    height: 100px;
+    margin: auto;
+}
+
+/* Search Section'a border ekledik */
+.search-section {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.search-description {
+    margin-bottom: 20px;
+}
+
+.search-form {
+    margin-bottom: 20px;
+}
+
+.search-box {
+    width: 500px;
+    height: 30px;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+.btn {
+    width: 150px;
+    height: 30px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between; /* Div'leri yatayda eşit şekilde dağıtır */
+}
+
+.left {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: aquamarine;
+    border: 1px solid #ccc;
+    flex: 1; /* Her bir bölmeyi eşit genişlikte yapar */
+    margin-right: 10px; /* Sağda diğer div'lerden boşluk bırakır */
+}
+
+.left p {
+    margin: 0; /* Paragrafın üst ve alt boşluklarını kaldırır */
+}
+
+.left a {
+    display: block; /* Her bir bağlantıyı alt alta getirir */
+    margin-top: 5px; /* Bağlantılar arasına boşluk ekler */
+    text-decoration: none; /* Bağlantı alt çizgisini kaldırır */
+    color: blue; /* Bağlantı rengini ayarlar */
+}
+
+.right {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: aquamarine;
+    border: 1px solid #ccc;
+    flex: 1; /* Her bir bölmeyi eşit genişlikte yapar */
+    margin-left: 10px; /* Solda diğer div'lerden boşluk bırakır */
+}
+
+.right a {
+    display: block; /* Her bir bağlantıyı alt alta getirir */
+    margin-top: 5px; /* Bağlantılar arasına boşluk ekler */
+    text-decoration: none; /* Bağlantı alt çizgisini kaldırır */
+    color: blue; /* Bağlantı rengini ayarlar */
+}
+
+.subscribe {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: aquamarine;
+    border: 1px solid #ccc;
+    flex: 1; /* Her bir bölmeyi eşit genişlikte yapar */
+    margin-left: 10px; /* Solda diğer div'lerden boşluk bırakır */
+}
+
+.subscribe input[type="email"] {
+    width: 100%; /* E-posta giriş kutusunu genişlik boyunca uzatır */
+    margin-top: 10px; /* Üst kısımda biraz boşluk bırakır */
+}
+
+.subscribe button {
+    display: block; /* Butonu alt alta getirmek için */
+    margin-top: 10px; /* Butonun üst kısmında biraz boşluk bırakır */
+}
