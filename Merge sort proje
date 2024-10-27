@@ -1,0 +1,19 @@
+Merge Sort Aşamaları => Dizi: [16, 21, 11, 8, 12, 22]
+
+Adım 1: Diziyi parçalara ayırma 
+[16, 21, 11, 8, 12, 22]
+
+İlk yarı: [16, 21, 11]
+İkinci yarı: [8, 12, 22]
+[16, 21, 11] → [16], [21], [11]
+
+[8, 12, 22] → [8], [12], [22]
+
+Adım 2: Alt dizileri sıralama ve birleştirme 
+[16], [21], [11] → Sırala → [11, 16, 21]
+[8], [12], [22] → Zaten sıralı → [8, 12, 22]
+
+Adım 3: Sıralı alt dizileri birleştirme
+[11, 16, 21], [8, 12, 22] → Birleştir → [8, 11, 12, 16, 21, 22]
+
+Big-O gösterimi: O(n log n)

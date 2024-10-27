@@ -1,0 +1,41 @@
+ Dizi: [7, 5, 1, 8, 3, 6, 0, 9, 4, 2] 
+
+-kökü 7'dir.
+7'den daha küçük olan sayılar çözümüne, daha büyük olan sayılar sağına yerleştirilir.
+
+-5 bulunur. (7'nin solunda)
+5, 7'den küçük olduğu için çözüme bağlanmak.
+
+-1 bulunur. (5'in solunda)
+1, 5'ten küçük olduğu için 5'in soluna eklenmesi.
+
+-8 bulunur. (7'nin sağında)
+8, 7'den büyük olduğu için Altyapı takviyesi.
+
+-3 bulunur. (5'in sağında)
+3, 5'ten küçük ama 1'den büyük olduğu için 1'in sağına bağlanır.
+
+-6 bulunur. (5'in sağında)
+6, 5'ten büyük ama 7'den küçük olduğu için 5'in sağına bağlanır.
+
+-0 bulunur. (1'in solunda)
+0, 1'den küçük olduğu için 1'in çözümüne eklenir.
+
+-9 bulunur. (8'in sağında)
+9, 8'den büyük olduğu için 8'in sağına ekleme yapılıyor.
+
+-4 bulunur. (3'ün sağında)
+4, 3'ten büyük ama 5'ten küçük olduğu için 3'ün sağına bağlanır.
+
+-2 bulunur. (3'ün solunda)
+2, 3'ten küçük ama 1'den büyük olduğu için 1'in sağında, 3'ün soluna eklenir.
+
+       7
+      / \
+     5   8
+    / \   \
+   1   6   9
+  / \
+ 0   3
+    / \
+   2   4
