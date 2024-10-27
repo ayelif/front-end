@@ -1,4 +1,7 @@
 # kodluyoruz-front-end
 
 * HTML 
-* CSS 
+* CSS
+* Bootstrap
+* JavaScript
+  
